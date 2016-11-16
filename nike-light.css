@@ -1,0 +1,112 @@
+
+
+
+body {
+	background-image: url(img/bg.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.bg {
+	
+	width: 80%;
+	margin: auto;
+	
+}
+
+.bg__header {
+	display: inline-block;
+	    width: 100%;
+	    margin: 20px 0px 40px 0px;
+	    /*height: 45px;*/
+}
+
+
+.bg__header--logo {
+	background-image: url(img/logo.png);
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 120px;
+height: 40px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+
+.bg__header__menu {
+	float: right;
+	margin-right: 30px;
+	
+	
+}
+
+.bg__header__menu--elem {
+	font-size: 18px;
+display: inline-block;
+text-decoration: none;
+color: white;
+margin-right: 10px;
+}
+
+
+.bg__card {
+	display: inline-block;
+	width: 90%;
+	
+	background-color: #f4f4f4;
+	
+	
+}
+
+
+.bg__card__photo {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+
+.bg__card__smallphotos {
+	width: 51%;
+	float: left;
+	display: inline-block;
+}
+
+
+.bg__card__description {
+	
+	width: 40%;
+	display: inline-block;
+	margin-top: 30px;
+	
+}
+
+.bg__card__description--new {
+	width: 50px;
+	height: 25px;
+	background-color: #ffa700;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.bg__card__description--tm {
+	width: 100%;
+}
+
+
+
+
+.bg__card__description--stars {
+	display: inline;
+}
+
+.bg__card__description__sizes--point {
+	display: inline-block;
+	
+}
